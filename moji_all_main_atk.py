@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
-import matplotlib
 
-matplotlib.rcParams['font.family'] = 'SimHei'
+plt.rcParams['font.family'] = 'SimHei'
 
 main_atk = [0] * 36
 
