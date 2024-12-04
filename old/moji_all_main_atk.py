@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 plt.rcParams['font.family'] = 'SimHei'
 
-main_atk = [0] * 36
+main_atk = [0] * 39
 
 main_atk[10] = 3850
 main_atk[11] = 4510
@@ -24,12 +24,15 @@ main_atk[26] = 46200
 main_atk[27] = 52580
 main_atk[28] = 59510
 main_atk[29] = 66990
-main_atk[30] = 75020
+main_atk[30] = 75020 # diff 15510
 main_atk[31] = 83600
-main_atk[32] = 92730
-main_atk[33] = 102410
-main_atk[34] = 112640
-main_atk[35] = 123420
+main_atk[32] = 92730 # diff 17710
+main_atk[33] = 102410 # 18810
+main_atk[34] = 112640 # diff 19910
+main_atk[35] = 123420 # 21010
+main_atk[36] = 134750
+main_atk[37] = 146630
+main_atk[38] = 159060
 
 if __name__ == '__main__':
     x = list(range(10, len(main_atk)))
